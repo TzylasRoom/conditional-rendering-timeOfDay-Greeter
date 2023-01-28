@@ -1,5 +1,8 @@
-REACT conditional rendering with short circuit evaluation and ternary operators!
+REACT Conditional Rendering with Short Circuit Evaluation and Ternary Operators!
 
-1) Download this code
-2) Run "npm install" to download all dependencies and make sure Node JS is installed
-3) Run "npm start" to start playing with this code!
+Play around with this code to learn Short Circuit Evaluation and Ternary Operators. You can put your own style into this project!
+
+Download this folder and open it in VSCode
+Make sure you already have node js downloaded on your computer
+Run "npm install" in terminal to install needed packages
+Run "npm start" in terminal to start the server on local host
