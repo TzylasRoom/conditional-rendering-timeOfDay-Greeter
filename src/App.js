@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import GoodMorning from './GoodMorning';
+import GoodNight from './GoodNight';
 
+// Greet Based on Time of Day!
 function App() {
+
+  //Define Time of Day
+  let timeofDay = "night"
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+
+      {(timeofDay==="morning" || timeofDay==="afternoon") && 
+      <GoodMorning
+      timeOfDay={timeofDay}
+      /> }
+
+      {(timeofDay==="night") && <GoodNight/> }
+
     </div>
   );
 }
